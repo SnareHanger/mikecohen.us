@@ -1,5 +1,5 @@
 import * as React from "react";
-import useImageFilename from "../utils/useImageFilename.hooks";
+import useImageFilename from "../../utils/useImageFilename.hooks";
 import Lightbox from "yet-another-react-lightbox";
 import { useState } from "react";
 import "yet-another-react-lightbox/styles.css";
