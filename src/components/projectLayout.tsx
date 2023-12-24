@@ -13,7 +13,10 @@ type ProjectLayoutProps = {
 export default function ProjectLayout({projectKey}: ProjectLayoutProps) {
   const project = projects[projectKey];
   if(!project) {
-    navigate('/');
+    console.log(typeof window);
+    if(typeof window !== undefined) {
+      //navigate('/');
+    }
     return null;
   }
   const projectBody = { __html: project.body };
