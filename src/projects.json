@@ -1,0 +1,107 @@
+{
+  "the-confines-of-space": {
+    "name": "The Confines of Space",
+    "workType": "Design & Construction",
+    "body": "<p>The Confines of Space is a sculptural light piece that I consider a self-portrait of my past. For seven years, I worked as a programmer through 4 different offices, each well populated with small gray cubicles. In my seventh year of work, I found myself needing to get out of these spaces and I left the neutral gray workforce to begin my creative life at the Interactive Telecommunications Program at NYU. In The Confines of Space, I explore the contrast of my old life and my new life by creating endless space in a confining and comparably small object. With this juxtaposition, the viewer can be witness to endless space existing in a place where it physically should not.</p>\r\n                <p>In The Confines of Space, I am recreating the feeling of something huge being trapped by something small, but not from my first person viewpoint as a programmer in a cubicle, more so as an outsider looking in on something that should not exist in such a small space.  With no doorknob and a locked deadbolt, there is no way to enter the space.  The only entrance into this space is a viewport through the neutral gray door barely large enough for the eyes.  What I created behind the door is a white endless void.  Neither shallow nor deep, what the viewer sees is purely at their discretion.</p>\r\n    <p>What I wanted people get out of this piece was a sense of wonder firstly, but really, I wanted people to see what they choose to see.  When people ask me what it is, I don't tell them what it is, I ask them to look inside and see for themselves.  Having shown The Confines of Space to a group of people, each viewer has seen something completely different.  <br><br>Here are some thoughts from various people:\r\n    <ul><li>\"There's a disconnect, I get a bad feeling.  It's affecting my sense of balance leaning my head against the door.\"\r\n    <li>\"I have a desire to get where I want, but I just can't get there\"\r\n    <li>\"Awesome.  I completely lose any sense of depth.\"\r\n    <li>\"Feels sterile.  I really want to open this god damn door now.\"\r\n    <li>\"Walking into the Matrix loader program.\"\r\n    <li>\"I feel I'm dead, the light directs me to go in.  The space makes me want to explore it.\"\r\n    <li>\"I feel like there's a strong presence...like it's pushing and I should respect it.\"\r\n    <li>\"The lower part of my body feels vulnerable because I can't see what's below on the other side.\"</li></ul>\r\n    This mix of thoughts and feelings about my piece are exactly what I want.  I don't want to hear from every single person that it's just an endless space, because it's not really the endless space that matters as a \"physical\" thing.  It's moreso what the space creates for people.\r\n</p>",
+    "dir": "confines",
+    "images": {
+      "filename": "confines{0}.jpg",
+      "imageCount": 7
+    }
+  },
+  "dissonics": {
+    "name": "Dissonics",
+    "workType": "Creator & Performer",
+    "body": "<p>An array of pylons sits untouched, waiting for someone to discover it's true nature. Based in proximity, dissonance and curiosity, Dissonics reacts to entities unknown to it through sonic force and light.</p><p>Dissonics is a new instrument I created in order to push the use of tension both physically and sonically.  I used Arduino and custom built hardware along with Parallax PING ultrasonic range finders to interface with custom and off the shelf software.  The data from the range finders was sent to custom made Max/MSP software in order to interpret the data to midi messages and pass that on to software synthesizers.  Musically speaking, Dissonics creates music initially in a major scale, giving the audience a fairly pleasant experience.  As the performer comes closer to the pylons, the notes being played travel to more and more dissonant places, through a minor, augmented, diminished and finally twelve tone scale.  The interaction truly gives the performer a sense of power over the sound, a sort of sonic conjuring.  Certain objects that are part of the instrument drastically change the timbre and quality of the sound to truly give it more than just dissonance as part of it's dynamics.</p>",
+    "dir": "dissonics",
+    "images": {
+      "filename": "dissonics{0}.jpg",
+      "imageCount": 5
+    },
+    "video": {
+      "videoUrl": "https://vimeo.com/18182788",
+      "videoThumb": "dissonics_vid.jpg"
+    }
+  },
+  "bindu-shards": {
+    "name": "Bindu Shards by James Turrell",
+    "workType": "Audio/Interface Programmer, Sound Designer",
+    "body": "<p>For Bindu Shards, audio and light needed to be synchronized in order to create a fully engaging and immersive piece.  Using Max/MSP, a visual programming tool for audio, I created an interface in order to bridge the gap between the auditory experience and the light.  A DMX hardware interface was used to connect the Max/MSP interface to the light system that was installed.  The sound design was done working with Alexandra Kuechenberg.  Coming out of the concept of <a href=\"http://en.wikipedia.org/wiki/Binaural_beats\" target=\"_blank\">Binaural Beats</a>, the sound was created to bring the user into a meditative state by stimulating brain waves.</p>\r\n                    \r\n                    <p>The relation of exterior light to interior light is explored further in the work Bindu Shards (2010), a fully immersive visual and auditory work to be experienced by one person at a time. Part of the ongoing Perceptual Cells series, Bindu Shards possesses the same invasive qualities of \"behind-the-eyes\" seeing as could be experienced in Gasworks (1993) which was first shown at the Henry Moore Sculpture Trust in Halifax, and then at the ICA, London in 1996. In the late 1980s, Turrell resumed work on the Perceptual Cells, which stemmed from his university studies, then continued from 1968 through 1970 as a collaboration with the artist Robert Irwin and two psychologists. Each cell stimulates an experience in which there is no object of perception; the light which is presented is light \"not seen.\" This produces the \"Purkinje effect,\" a transitional patterning that is perceived uniquely during the transition from light to dark. Together with the Dark Space series begun in 1983, Shards shares this dissolving of the juncture between the light outside and the light inside. During the eight to twelve minutes required for the eyes to adapt to darkness, the realm where the difference between \"in-front\" and \"back-of-the-eyes\" seeing dissolves and allows the iris to open.</p><h3>Press</h3><p><ul><li><a href=\"http://www.guardian.co.uk/artanddesign/jonathanjonesblog/2010/nov/17/bindu-shards-james-turrell-gagosian\" target=\"_blank\">The Guardian</a></li><li><a href=\"http://www.ft.com/cms/s/2/65f62272-d7ba-11df-b478-00144feabdc0.html\" target=\"_blank\">Financial Times</a></li><li><a href=\"http://www.lrb.co.uk/v32/n24/peter-campbell/at-the-gagosian\" target=\"_blank\">London Review of Books</a></li></ul></p>",
+    "dir": "bindu",
+    "images": {
+      "filename": "bindu{0}.jpg",
+      "imageCount": 3
+    }
+  },
+  "ghosts-of-union-square": {
+    "name": "Ghosts of Union Square",
+    "workType": "Photographer & Sound Designer",
+    "body": "<p>One day while wandering around Union Square in New York City, I wanted to capture the motion and action of the park in a single still image.</p>",
+    "dir": "ghosts",
+    "images": {
+      "imageCount": 0
+    },
+    "video": {
+      "videoUrl": "https://vimeo.com/9722424",
+      "videoThumb": "ghosts_vid.jpg"
+    }
+  },
+  "planting-steps": {
+    "name": "Planting Steps",
+    "workType": "Co-Designer & Co-Fabricator",
+    "body": "<p>Planting Steps was created in collaboration with <a href=\"https://www.linkedin.com/in/michelle-temple-25746714/\" target=\"_blank\">Michelle Temple</a> and <a href=\"https://www.linkedin.com/in/arkany/\" target=\"_blank\">David Phillips</a></p><p>The resurgence of hydroponic farming has provided us with a unique opportunity to rethink the world. No longer do we need to buy all of our groceries from a brand that ships them across the country. Instead, it can be localized. Hyper-localized, say, in your living room. Indoor low scale hydroponic farms provide year round harvesting for as many plants as you can fit in your home. We believe that there is a market for folks who wish to grow food in their home. They don't have a lot of time and they have a contemporary sense of aesthetic. Normally, you wouldn't put a farm in your living room. Well, we're here to change that.</p><p>The project is a vertical, flat pack system, so anyone who can put together an Ikea bookshelf will be fully prepared to put together our farm. In short, it's Ikea meets Whole Foods.Our team is committed to the goal of building a low-maintenance hydroponic farm that you will feel comfortable, even proud, of placing in your living room or family room. We were inspired by the localization movement, self-sufficiency and the chance to save some money on groceries.</p>",
+    "dir": "planting",
+    "images": {
+      "filename": "planting{0}.jpg",
+      "imageCount": 5
+    },
+    "video": {
+      "videoUrl": "https://vimeo.com/18417235",
+      "videoThumb": "planting_vid.jpg"
+    }
+  },
+  "stickman-fight": {
+    "name": "Stickman!!! FIGHT!!!",
+    "workType": "openFrameworks Programmer",
+    "body": "<p><strong>Stickman!  FIGHT!!!</strong> is a game made for getting out your aggression with friends without actually injuring anyone.  <a href=\"https://www.linkedin.com/in/jasonwilliamaston/\" target=\"_blank\">Jason Aston</a> and I used openFrameworks to put everything together and a Kinect to do the real brunt of the work.  Using the Kinect's skeleton tracking abilities made creating this game a much simpler task than without it.</p>",
+    "dir": "stickman",
+    "images": {
+      "filename": "stickman{0}.jpg",
+      "imageCount": 4
+    }
+  },
+  "slippery-slopes": {
+    "name": "Slippery Slopes",
+    "workType": "Co-Designer & Co-Fabricator",
+    "body": "<p>Created for an Exhibit Design class led by Nancy Hechinger and Eric Siegel, the director of the <a href=\"http://www.nysci.org\" target=\"_blank\">NY Hall of Science</a>, Slippery Slopes was all about friction.  In collaboration with Chris Allick, Peter Holzkorn and Sara Huong, we designed an inclinable \"racetrack\" that could be paved with various granular materials of the visitors choice.  The visitors then get to witness what happens when \"racecars\" are placed on this newly paved track, as the track is lifted up.</p><p>While visitors will learn a few things about friction, what they can learn, almost unknowingly is the skill of hypothesis and experimentation.  Many visitors tried two or more materials with different \"racecars\" and explained to us why they thought that material or car would be faster.</p>",
+    "dir": "slippery",
+    "images": {
+      "filename": "slippery{0}.jpg",
+      "imageCount": 5
+    }
+  },
+  "we-have-you-now": {
+    "name": "We Have You Now",
+    "workType": "Audio/Interface Programmer, Sound Designer",
+    "body": "<p>For Bindu Shards, audio and light needed to be synchronized in order to create a fully engaging and immersive piece.  Using Max/MSP, a visual programming tool for audio, I created an interface in order to bridge the gap between the auditory experience and the light.  A DMX hardware interface was used to connect the Max/MSP interface to the light system that was installed.  The sound design was done working with Alexandra Kuechenberg.  Coming out of the concept of <a href=\"http://en.wikipedia.org/wiki/Binaural_beats\" target=\"_blank\">Binaural Beats</a>, the sound was created to bring the user into a meditative state by stimulating brain waves.</p>\r\n                    \r\n                    <p>The relation of exterior light to interior light is explored further in the work Bindu Shards (2010), a fully immersive visual and auditory work to be experienced by one person at a time. Part of the ongoing Perceptual Cells series, Bindu Shards possesses the same invasive qualities of \"behind-the-eyes\" seeing as could be experienced in Gasworks (1993) which was first shown at the Henry Moore Sculpture Trust in Halifax, and then at the ICA, London in 1996. In the late 1980s, Turrell resumed work on the Perceptual Cells, which stemmed from his university studies, then continued from 1968 through 1970 as a collaboration with the artist Robert Irwin and two psychologists. Each cell stimulates an experience in which there is no object of perception; the light which is presented is light \"not seen.\" This produces the \"Purkinje effect,\" a transitional patterning that is perceived uniquely during the transition from light to dark. Together with the Dark Space series begun in 1983, Shards shares this dissolving of the juncture between the light outside and the light inside. During the eight to twelve minutes required for the eyes to adapt to darkness, the realm where the difference between \"in-front\" and \"back-of-the-eyes\" seeing dissolves and allows the iris to open.</p><h3>Press</h3><p><ul><li><a href=\"http://www.guardian.co.uk/artanddesign/jonathanjonesblog/2010/nov/17/bindu-shards-james-turrell-gagosian\" target=\"_blank\">The Guardian</a></li><li><a href=\"http://www.ft.com/cms/s/2/65f62272-d7ba-11df-b478-00144feabdc0.html\" target=\"_blank\">Financial Times</a></li><li><a href=\"http://www.lrb.co.uk/v32/n24/peter-campbell/at-the-gagosian\" target=\"_blank\">London Review of Books</a></li></ul></p>",
+    "dir": "wehaveyounow",
+    "video": {
+      "videoThumb": "wehaveyounow_vid.jpg",
+      "videoUrl": "http://vimeo.com/18637044"
+    }
+  },
+  "hand-crank-drum-machine": {
+    "name": "Hand Crank Drum Machine",
+    "workType": "Creator",
+    "body": "<p>Spending time with so much technology, I had learned to step away from computers and electrical things.  I was inspired to create something powered by people.  A bit of inspiration came from EJ Park's <a href=\"http://itp.nyu.edu/shows/thesis2009/eun-jungej-park/\" target=\"_blank\">Mechanical Storytelling</a> and my years of playing drums.  The entire machine is made of wood save for a few metal parts to reduce friction and of course, there are no wooden springs.</p>",
+    "dir": "drums",
+    "images": {
+      "filename": "drums{0}.jpg",
+      "imageCount": 3
+    },
+    "video": {
+      "videoUrl": "http://vimeo.com/11536254",
+      "videoThumb": "drums_vid.jpg"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.projectBody {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectImages {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectImages img {
+    margin: 6px;
+    cursor: pointer;
+}
