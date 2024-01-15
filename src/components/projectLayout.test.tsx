@@ -19,5 +19,5 @@ test("Displays correct work type", () => {
 test("Displays correct text", () => {
   const { getByTestId } = render(<ProjectLayout projectKey='test-project' />);
 
-  expect(getByTestId("project-text")).toContainHTML("<p>Testing my stuff!</p>");
+  expect(getByTestId("project-text")).toContainHTML("<p>Testing my stuff</p>");
 });
