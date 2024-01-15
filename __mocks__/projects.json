@@ -1,0 +1,12 @@
+{
+  "test-project": {
+    "name": "Test Project",
+    "workType": "Testing & Coding",
+    "body": "<p>Testing my stuff</p>",
+    "dir": "testing",
+    "images": {
+      "filename": "testing{0}.jpg",
+      "imageCount": 7
+    }
+  }
+}

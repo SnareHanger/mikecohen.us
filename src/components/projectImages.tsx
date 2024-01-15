@@ -3,16 +3,11 @@ import useImageFilename from "../../utils/useImageFilename.hooks";
 import Lightbox from "yet-another-react-lightbox";
 import { useState } from "react";
 import "yet-another-react-lightbox/styles.css";
+import { projectImage } from './projectImage.module.css';
 
 type ProjectImagesProps = {
   dir: string;
   images: ProjectImages;
-};
-
-type ProjectImageProps = {
-  imageNum: number;
-  filename: string;
-  dir: string;
 };
 
 export default function ProjectImages({ images, dir }: ProjectImagesProps) {
@@ -39,6 +34,8 @@ export default function ProjectImages({ images, dir }: ProjectImagesProps) {
     <>
       {slides.map(({imageName, thumb}, index) => (
          <img
+          key={imageName}
+          className={projectImage}
           src={thumb}
           title={imageName}
           onClick={() => setAndOpenLightbox(index)}

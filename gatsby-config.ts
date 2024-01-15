@@ -8,8 +8,8 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  flags: {
-    'DEV_SSR': true
-  }, 
+  siteMetadata: {
+    title: 'Mike Cohen'
+  },
   plugins: ['gatsby-plugin-netlify'],
 }
