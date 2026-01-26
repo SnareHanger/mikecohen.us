@@ -41,12 +41,11 @@ describe("ProjectImages component", () => {
   });
 
   test("renders lightbox component", () => {
-    const { container } = render(
+    const { getByTestId } = render(
       <ProjectImages images={mockImages} dir={mockDir} />
     );
 
-    // The mocked lightbox renders a div
-    expect(container.querySelector("div")).toBeInTheDocument();
+    expect(getByTestId("lightbox")).toBeInTheDocument();
   });
 
   test("handles single image", () => {
