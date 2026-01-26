@@ -34,14 +34,10 @@ export default function Layout({ children }: LayoutProps) {
           </Link>
         </h1>
         <div id='about'>
-          Mike Cohen is an artist and designer interested in creating works that
-          play with people's perception of things. He uses light, sound,
-          sculpture and the screen to construct environments and ideas that
-          gives a viewer the sense that something is different than what should
-          be. Having a long history of using computers back to the days of the
-          Commodore 64, he has always been fascinated with technology. His
-          current focus is in audio and visual performance and installation,
-          ranging from creating new instruments to music visualization.
+          Mike Cohen is mainly a software engineer, with a love for creative
+          coding, art, music, gaming and design. Having a long history of using
+          computers back to the days of the Commodore 64, he has always been
+          fascinated with technology.
         </div>
         <div id='contactInfo'>
           <li>
