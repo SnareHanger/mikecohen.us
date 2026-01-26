@@ -13,12 +13,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "gatsby": "^5.13.0",
+    "gatsby": "^5.15.0",
     "gatsby-plugin-netlify": "^5.1.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "ts-node": "^10.9.2",
-    "yet-another-react-lightbox": "^3.15.6"
+    "yet-another-react-lightbox": "^3.28.0"
   },
   "repository": {
     "type": "git",
@@ -28,18 +28,18 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "^7.23.3",
-    "@testing-library/jest-dom": "^6.2.0",
-    "@testing-library/react": "^14.1.2",
-    "@types/jest": "^29.5.11",
-    "@types/node": "^20.10.5",
-    "@types/react": "^18.2.45",
-    "@types/react-dom": "^18.2.18",
+    "@babel/preset-typescript": "^7.28.5",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^14.3.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.19.30",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
     "babel-jest": "^29.7.0",
-    "babel-preset-gatsby": "^3.13.0",
+    "babel-preset-gatsby": "^3.15.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.9.3"
   }
 }
