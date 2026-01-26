@@ -8,5 +8,29 @@
       "filename": "testing{0}.jpg",
       "imageCount": 7
     }
+  },
+  "video-project": {
+    "name": "Video Only Project",
+    "workType": "Video Production",
+    "body": "<p>A project with only video</p>",
+    "dir": "videoproject",
+    "video": {
+      "videoUrl": "https://vimeo.com/123456",
+      "videoThumb": "video_thumb.jpg"
+    }
+  },
+  "mixed-project": {
+    "name": "Mixed Media Project",
+    "workType": "Mixed Media",
+    "body": "<p>A project with both <a href=\"https://example.com\">video</a> and images</p>",
+    "dir": "mixedproject",
+    "images": {
+      "filename": "mixed{0}.png",
+      "imageCount": 3
+    },
+    "video": {
+      "videoUrl": "https://vimeo.com/789012",
+      "videoThumb": "mixed_vid.jpg"
+    }
   }
 }
