@@ -191,8 +191,8 @@ a:hover {
   font-size: 12pt;
 }
 
-/* Tablet breakpoint */
-@media (max-width: 768px) {
+/* Tablet and landscape phone breakpoint */
+@media (max-width: 932px) {
   header {
     flex-direction: column;
     align-items: flex-start;
@@ -208,6 +208,21 @@ a:hover {
     text-align: left;
     padding-left: 0;
     margin-bottom: 15px;
+  }
+
+  #projects {
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0 20px;
+  }
+
+  #projects div {
+    width: 100%;
+    height: 150px;
+  }
+
+  #projects div span {
+    top: 125px;
   }
 
   .projectText,
@@ -239,21 +254,6 @@ a:hover {
 
   #contactInfo {
     text-align: center;
-  }
-
-  #projects {
-    flex-direction: column;
-    align-items: stretch;
-    margin: 0 20px;
-  }
-
-  #projects div {
-    width: 100%;
-    height: 150px;
-  }
-
-  #projects div span {
-    top: 125px;
   }
 
   .projectTitle {
