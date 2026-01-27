@@ -21,7 +21,7 @@ main,
 header,
 footer {
     width: 100%;
-    max-width: 960px;
+    max-width: 990px;
     margin: auto;
     padding: 0 15px;
     box-sizing: border-box;
@@ -191,8 +191,8 @@ a:hover {
   font-size: 12pt;
 }
 
-/* Tablet/mobile breakpoint - single column under 960px */
-@media (max-width: 960px) {
+/* Tablet/mobile breakpoint - single column under 990px */
+@media (max-width: 990px) {
   header {
     flex-direction: column;
     align-items: flex-start;
