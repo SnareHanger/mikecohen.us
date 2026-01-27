@@ -1,14 +1,32 @@
 .projectBody {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .projectImages {
     display: flex;
     flex-direction: column;
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+
+.projectImages img {
+    max-width: 100%;
+    height: auto;
 }
 
 .videoLink {
     margin: 6px;
 }
 
+@media (max-width: 768px) {
+    .projectBody {
+        flex-direction: column;
+    }
+
+    .projectImages {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
