@@ -10,20 +10,29 @@ body {
 }
 
 h1 {
-  font-size: 40pt;
+  font-size: clamp(24pt, 8vw, 40pt);
   letter-spacing: 0.12em;
-  height: 50px;
+  height: auto;
+  width: 100%;
+  margin: 0;
 }
 
 main,
 header,
 footer {
-    width: 960px;
+    width: 100%;
+    max-width: 990px;
     margin: auto;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
 header {
-    height: 200px;
+    min-height: 200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 main {
@@ -47,14 +56,15 @@ a:hover {
 }
 
 #about {
-  float: left;
-  width: 700px;
-  height: 100px;
+  flex: 1 1 300px;
+  min-width: 0;
+  height: auto;
   padding-left: 10px;
   font-size: 9pt;
   color: #72787f;
   letter-spacing: 0.12em;
   text-align: justify;
+  margin-bottom: 15px;
 }
 
 #content {
@@ -62,21 +72,21 @@ a:hover {
 }
 
 #contactInfo {
-  padding-left: 790px;
-  padding-right: 10px;
+  flex: 0 0 auto;
+  padding: 0 10px;
   font-size: 10.5pt;
   letter-spacing: 0.08em;
   font-weight: 500;
-  height: 50px;
+  height: auto;
+  text-align: right;
 }
 
 #split {
-  width: 945px;
+  width: 100%;
   height: 10px;
-  float: left;
   background-color: #4c617f;
   text-align: center;
-  margin-left: 5px;
+  flex-basis: 100%;
 }
 
 #contactInfo li {
@@ -86,12 +96,14 @@ a:hover {
 #projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 15px;
 }
 
 #projects div {
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 307px;
   height: 123px;
   text-align: center;
@@ -156,7 +168,8 @@ a:hover {
 
 .projectText {
   text-align: justify;
-  width: 580px;
+  width: 100%;
+  max-width: 580px;
   margin-right: 10px;
   float: right;
 }
@@ -168,11 +181,82 @@ a:hover {
 .upperSection {
   float: right;
   text-align: right;
-  width: 590;
+  width: 100%;
+  max-width: 590px;
   margin-right: 10px;
 }
 
 .myTitle {
   color: #72787f;
   font-size: 12pt;
+}
+
+/* Tablet/mobile breakpoint - single column under 990px */
+@media (max-width: 990px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #about {
+    flex: 1 1 100%;
+    padding-left: 0;
+  }
+
+  #contactInfo {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 15px;
+  }
+
+  #projects {
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0 20px;
+  }
+
+  #projects div {
+    width: 100%;
+    height: 150px;
+  }
+
+  #projects div span {
+    top: 125px;
+  }
+
+  .projectText,
+  .upperSection {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .back {
+    float: none;
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20pt;
+    text-align: center;
+  }
+
+  #about {
+    font-size: 10pt;
+    line-height: 1.5;
+  }
+
+  #contactInfo {
+    text-align: center;
+  }
+
+  .projectTitle {
+    font-size: 18pt;
+  }
 }
