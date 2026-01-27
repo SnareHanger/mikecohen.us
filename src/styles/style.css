@@ -191,8 +191,8 @@ a:hover {
   font-size: 12pt;
 }
 
-/* Tablet and landscape phone breakpoint */
-@media (max-width: 932px) {
+/* Mobile/touch device breakpoint - targets phones and tablets */
+@media (max-width: 932px) and (hover: none), (max-width: 932px) and (pointer: coarse) {
   header {
     flex-direction: column;
     align-items: flex-start;
