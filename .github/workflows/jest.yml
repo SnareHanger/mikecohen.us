@@ -1,4 +1,6 @@
 name: Jest Testing
+permissions:
+  contents: read
 
 on:
   push:
