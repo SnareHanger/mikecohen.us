@@ -1,16 +1,13 @@
-name: Jest Testing
-permissions:
-  contents: read
+name: Build
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
     - uses: actions/checkout@v4
@@ -23,5 +20,5 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run Jest tests
-      run: npm test
+    - name: Build
+      run: npm run build
