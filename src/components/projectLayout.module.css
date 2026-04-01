@@ -1,18 +1,21 @@
 .projectBody {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 .projectImages {
     display: flex;
     flex-direction: column;
     flex: 0 0 auto;
-    max-width: 100%;
+    width: 320px;
+    max-width: 45%;
 }
 
 .projectImages img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -23,10 +26,12 @@
 @media (max-width: 768px) {
     .projectBody {
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .projectImages {
         width: 100%;
+        max-width: 100%;
         margin-bottom: 20px;
     }
 }
