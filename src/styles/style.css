@@ -173,10 +173,6 @@ a:hover {
 
 .projectText {
   text-align: justify;
-  width: 100%;
-  max-width: 580px;
-  margin-right: 10px;
-  float: right;
 }
 
 .projectTitle {
@@ -184,11 +180,7 @@ a:hover {
 }
 
 .upperSection {
-  float: right;
   text-align: right;
-  width: 100%;
-  max-width: 590px;
-  margin-right: 10px;
 }
 
 .myTitle {
@@ -230,12 +222,8 @@ a:hover {
     top: 125px;
   }
 
-  .projectText,
   .upperSection {
-    float: none;
-    width: 100%;
-    max-width: 100%;
-    margin-right: 0;
+    text-align: left;
   }
 
   .back {
